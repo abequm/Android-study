@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Labs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="CreateOrder">Собрать заказ</string>
+</resources>
