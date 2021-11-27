@@ -15,8 +15,8 @@
             android:id="@+id/imageView"
             android:scaleX="0.75"
             android:scaleY="0.75"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
             android:layout_weight="1"
             android:src="@drawable/logo" />
 
@@ -27,23 +27,21 @@
             android:text="@string/welcome" />
 
         <EditText
-            android:id="@+id/editTextPersonName"
+            android:id="@+id/lab7_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:hint="@string/login"
             android:inputType="textPersonName" />
 
         <EditText
-            android:id="@+id/editTextTextPassword"
+            android:id="@+id/lab7_pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
             android:hint="@string/password"
             android:inputType="textPassword" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/lab7_auth"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/CreateOrder" />
