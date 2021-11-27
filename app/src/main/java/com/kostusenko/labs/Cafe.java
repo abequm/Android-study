@@ -27,7 +27,7 @@ public class Cafe extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View v =inflater.inflate(R.layout.fragment_cafe, container, false);
-        Button btn= getActivity().findViewById(R.id.lab7_auth);
+        Button btn= v.findViewById(R.id.lab7_auth);
         if (btn ==null){
         }
         btn.setOnClickListener(

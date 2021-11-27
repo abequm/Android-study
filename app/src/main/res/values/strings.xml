@@ -6,4 +6,6 @@
     <string name="login">Логин</string>
     <string name="password">Пароль</string>
     <string name="CreateOrder">Собрать заказ</string>
+    <string name="userLogin">%d</string>
+    <string name="userPass">%d</string>
 </resources>
